@@ -1,0 +1,92 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_bg {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login_wrap {
+    text-align: center;
+    width: 100%;
+}
+
+#login p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#login input[type="button"] {
+    width: 95%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#login input[type="button"]:hover {
+    background-color: #555;
+}
+
+.login_options p {
+    margin: 10px 0 0 10px;
+    font-size: 14px;
+    color: #cccccc;
+    text-align: left;
+}
+
+.login_options a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.login_options a:hover {
+    color: white;
+}
+
+#login_text {
+    margin: 20px 0 0 10px;
+    font-size: 18px;
+    color: #cccccc;
+    text-align: left;
+}
+
+#login_text p {
+    margin: 0;
+}

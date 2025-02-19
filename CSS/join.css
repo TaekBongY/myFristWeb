@@ -1,0 +1,91 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_bg {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login_wrap {
+    
+    width: 100%;
+}
+
+#login p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+#login .login {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#submit_join {
+    width: 95%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#submit_join:hover {
+    background-color: #555;
+}
+
+#submit_wrap p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+#submit_wrap a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#submit_wrap a:hover {
+    color: white;
+}
+
+#login_hr {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login_hr p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
